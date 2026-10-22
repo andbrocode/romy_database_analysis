@@ -1,0 +1,20 @@
+data_source: mseed_file
+path_to_mseed_file: ./events/event_20251206/adr_20251206.mseed
+rot_seed:
+- GR.FUR..BJZ
+- GR.FUR..BJN
+- GR.FUR..BJE
+seed: GR.FUR..
+station_lat: 48.1639
+station_lon: 11.2768
+stations:
+- GR.FUR
+- BW.TON
+- BW.BIB
+- BW.GRMB
+tbeg: '2025-12-06 20:45:00'
+tend: '2025-12-06 22:04:59'
+tra_seed:
+- GR.FUR..BHE
+- GR.FUR..BHN
+- GR.FUR..BHZ

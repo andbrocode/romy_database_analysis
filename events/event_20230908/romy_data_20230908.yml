@@ -1,0 +1,28 @@
+data_source: sds
+magnitude: 6.8
+origin_time: '2023-09-08 22:11:00'
+path_to_conf_out: ./events/event_20230908/romy_data_20230908.yml
+path_to_data_out: ./events/event_20230908/romy_20230908.mseed
+path_to_inv_rot: ./metadata/station_BW_ROMY.xml
+path_to_inv_tra: ./metadata/station_GR_FUR.xml
+path_to_sds_rot: /home/andbro/freenas/romy_archive/
+path_to_sds_tra: /home/andbro/bay200/mseed_online/archive/
+rot_remove_response: true
+rot_seed:
+- BW.ROMY.10.BJZ
+- BW.ROMY..BJU
+- BW.ROMY..BJV
+rotate_zne: true
+seed: XX.ROMY..
+station_lat: 48.162941
+station_lon: 11.275476
+tbeg: '2023-09-08 22:10:00'
+tend: '2023-09-08 23:00:00'
+tra_remove_response: true
+tra_seed:
+- GR.FUR..BHZ
+- GR.FUR..BHN
+- GR.FUR..BHE
+use_romy_zne: true
+verbose: true
+workdir: ./

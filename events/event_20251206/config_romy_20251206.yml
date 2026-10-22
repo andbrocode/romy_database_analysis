@@ -1,0 +1,35 @@
+baz_step: 1
+cc_threshold: 0.8
+data_source: mseed_file
+fmax: 0.1
+fmin: 0.01
+magnitude: 7.0
+origin_time: '2025-12-06 20:41:51'
+path_to_data_out: ./output/
+path_to_figures: ./events/event_20251206/figures/
+path_to_mseed_file: ./events/event_20251206/romy_20251206.mseed
+project: ROMY_Analysis
+rot_seed:
+- XX.ROMY..BJZ
+- XX.ROMY..BJN
+- XX.ROMY..BJE
+seed: XX.ROMY..
+station_lat: 48.162941
+station_lon: 11.275476
+tbeg: '2025-12-06 20:50:00'
+tend: '2025-12-06 22:00:00'
+time_cuts:
+  JE:
+  - &id001 !!python/tuple
+    - '2025-12-06T21:21:40.000000Z'
+    - '2025-12-06T21:25:00.000000Z'
+  JN:
+  - *id001
+tra_seed:
+- XX.ROMY..BHZ
+- XX.ROMY..BHN
+- XX.ROMY..BHE
+twin_overlap: 0.75
+twin_sec: 100
+verbose: true
+workdir: ./

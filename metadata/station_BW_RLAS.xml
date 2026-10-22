@@ -1,0 +1,450 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<FDSNStationXML xmlns="http://www.fdsn.org/xml/station/1" schemaVersion="1.2">
+  <Source>GOF</Source>
+  <Sender>Geophysikalisches Observatorium Fürstenfeldbruck</Sender>
+  <Module>ObsPy 1.3.1</Module>
+  <ModuleURI>https://www.obspy.org</ModuleURI>
+  <Created>2000-01-01T00:00:00.000000Z</Created>
+  <Network code="BW" startDate="1980-01-01T00:00:00.000000Z">
+    <Description>BayernNetz</Description>
+    <SelectedNumberStations>1</SelectedNumberStations>
+    <Station code="RLAS" endDate="2010-04-13T00:00:00.000000Z" restrictedStatus="open" startDate="2007-07-18T00:00:00.000000Z">
+      <Latitude minusError="0.0" plusError="0.0" unit="DEGREES">49.146019</Latitude>
+      <Longitude minusError="0.0" plusError="0.0" unit="DEGREES">12.876</Longitude>
+      <Elevation minusError="0.0" plusError="0.0">608.0</Elevation>
+      <Site>
+        <Name>RingLaser, Bavaria, BW-Net</Name>
+      </Site>
+      <CreationDate>2007-07-18T00:00:00.000000Z</CreationDate>
+      <Channel code="BAE" endDate="2010-04-13T00:00:00.000000Z" locationCode="" startDate="2007-07-18T00:00:00.000000Z">
+        <Latitude minusError="0.0" plusError="0.0" unit="DEGREES">49.146019</Latitude>
+        <Longitude minusError="0.0" plusError="0.0" unit="DEGREES">12.876</Longitude>
+        <Elevation minusError="0.0" plusError="0.0">608.0</Elevation>
+        <Depth minusError="0.0" plusError="0.0">0.0</Depth>
+        <Azimuth minusError="0.0" plusError="0.0" unit="DEGREES">90.0</Azimuth>
+        <Dip minusError="0.0" plusError="0.0" unit="DEGREES">0.0</Dip>
+        <Type>TRIGGERED</Type>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate minusError="0.0" plusError="0.0" unit="SAMPLES/S">20.0</SampleRate>
+        <ClockDrift minusError="0.0" plusError="0.0" unit="SECONDS/SAMPLE">1.0</ClockDrift>
+        <CalibrationUnits>
+          <Name>A</Name>
+          <Description>Amperes</Description>
+        </CalibrationUnits>
+        <Sensor>
+          <Type>Wettzell RILA seismometer</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>6319100000000.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>RAD/S</Name>
+              <Description>Velocity in Meters per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description>Digital Counts</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>RAD/S</Name>
+                <Description>Velocity in Meters per Second</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description>Volts</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency minusError="0.0" plusError="0.0" unit="HERTZ">1.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>6319100.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description>Volts</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Counts</Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate minusError="0.0" plusError="0.0" unit="HERTZ">20.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay minusError="0.0" plusError="0.0">0.0</Delay>
+              <Correction minusError="0.0" plusError="0.0">0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>1000000.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="BAN" endDate="2010-04-13T00:00:00.000000Z" locationCode="" startDate="2007-07-18T00:00:00.000000Z">
+        <Latitude minusError="0.0" plusError="0.0" unit="DEGREES">49.146019</Latitude>
+        <Longitude minusError="0.0" plusError="0.0" unit="DEGREES">12.876</Longitude>
+        <Elevation minusError="0.0" plusError="0.0">608.0</Elevation>
+        <Depth minusError="0.0" plusError="0.0">0.0</Depth>
+        <Azimuth minusError="0.0" plusError="0.0" unit="DEGREES">0.0</Azimuth>
+        <Dip minusError="0.0" plusError="0.0" unit="DEGREES">0.0</Dip>
+        <Type>TRIGGERED</Type>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate minusError="0.0" plusError="0.0" unit="SAMPLES/S">20.0</SampleRate>
+        <ClockDrift minusError="0.0" plusError="0.0" unit="SECONDS/SAMPLE">1.0</ClockDrift>
+        <CalibrationUnits>
+          <Name>A</Name>
+          <Description>Amperes</Description>
+        </CalibrationUnits>
+        <Sensor>
+          <Type>Wettzell RILA seismometer</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>6319100000000.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>RAD/S</Name>
+              <Description>Velocity in Meters per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description>Digital Counts</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>RAD/S</Name>
+                <Description>Velocity in Meters per Second</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description>Volts</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency minusError="0.0" plusError="0.0" unit="HERTZ">1.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>6319100.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description>Volts</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Counts</Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate minusError="0.0" plusError="0.0" unit="HERTZ">20.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay minusError="0.0" plusError="0.0">0.0</Delay>
+              <Correction minusError="0.0" plusError="0.0">0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>1000000.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="BAZ" endDate="2010-04-13T00:00:00.000000Z" locationCode="" startDate="2007-07-18T00:00:00.000000Z">
+        <Latitude minusError="0.0" plusError="0.0" unit="DEGREES">49.146019</Latitude>
+        <Longitude minusError="0.0" plusError="0.0" unit="DEGREES">12.876</Longitude>
+        <Elevation minusError="0.0" plusError="0.0">608.0</Elevation>
+        <Depth minusError="0.0" plusError="0.0">0.0</Depth>
+        <Azimuth minusError="0.0" plusError="0.0" unit="DEGREES">0.0</Azimuth>
+        <Dip minusError="0.0" plusError="0.0" unit="DEGREES">-90.0</Dip>
+        <Type>TRIGGERED</Type>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate minusError="0.0" plusError="0.0" unit="SAMPLES/S">20.0</SampleRate>
+        <ClockDrift minusError="0.0" plusError="0.0" unit="SECONDS/SAMPLE">1.0</ClockDrift>
+        <CalibrationUnits>
+          <Name>A</Name>
+          <Description>Amperes</Description>
+        </CalibrationUnits>
+        <Sensor>
+          <Type>Wettzell RILA seismometer</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>6319100000000.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>RAD/S</Name>
+              <Description>Velocity in Meters per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description>Digital Counts</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>RAD/S</Name>
+                <Description>Velocity in Meters per Second</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description>Volts</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency minusError="0.0" plusError="0.0" unit="HERTZ">1.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>6319100.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description>Volts</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Counts</Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate minusError="0.0" plusError="0.0" unit="HERTZ">20.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay minusError="0.0" plusError="0.0">0.0</Delay>
+              <Correction minusError="0.0" plusError="0.0">0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>1000000.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+    </Station>
+    <Station code="RLAS" restrictedStatus="open" startDate="2010-04-14T00:00:00.000000Z">
+      <Latitude minusError="0.0" plusError="0.0" unit="DEGREES">49.146</Latitude>
+      <Longitude minusError="0.0" plusError="0.0" unit="DEGREES">12.876</Longitude>
+      <Elevation minusError="0.0" plusError="0.0">608.0</Elevation>
+      <Site>
+        <Name>RingLaser, Bavaria, BW-Net</Name>
+      </Site>
+      <CreationDate>2010-04-14T00:00:00.000000Z</CreationDate>
+      <Channel code="BJZ" locationCode="" startDate="2010-04-14T00:00:00.000000Z">
+        <Latitude minusError="0.0" plusError="0.0" unit="DEGREES">49.146</Latitude>
+        <Longitude minusError="0.0" plusError="0.0" unit="DEGREES">12.876</Longitude>
+        <Elevation minusError="0.0" plusError="0.0">608.0</Elevation>
+        <Depth minusError="0.0" plusError="0.0">0.0</Depth>
+        <Azimuth minusError="0.0" plusError="0.0" unit="DEGREES">0.0</Azimuth>
+        <Dip minusError="0.0" plusError="0.0" unit="DEGREES">-90.0</Dip>
+        <Type>TRIGGERED</Type>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate minusError="0.0" plusError="0.0" unit="SAMPLES/S">20.0</SampleRate>
+        <ClockDrift minusError="0.0" plusError="0.0" unit="SECONDS/SAMPLE">1.0</ClockDrift>
+        <CalibrationUnits>
+          <Name>A</Name>
+          <Description>Amperes</Description>
+        </CalibrationUnits>
+        <Sensor>
+          <Type>Wettzell RILA seismometer</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>6319100000000.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>RAD/S</Name>
+              <Description>Velocity in Meters per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description>Digital Counts</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>RAD/S</Name>
+                <Description>Velocity in Meters per Second</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description>Volts</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency minusError="0.0" plusError="0.0" unit="HERTZ">1.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>6319100.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description>Volts</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Counts</Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate minusError="0.0" plusError="0.0" unit="HERTZ">20.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay minusError="0.0" plusError="0.0">0.0</Delay>
+              <Correction minusError="0.0" plusError="0.0">0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>1000000.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="HJZ" locationCode="" startDate="2010-04-14T00:00:00.000000Z">
+        <Latitude minusError="0.0" plusError="0.0" unit="DEGREES">49.146</Latitude>
+        <Longitude minusError="0.0" plusError="0.0" unit="DEGREES">12.876</Longitude>
+        <Elevation minusError="0.0" plusError="0.0">608.0</Elevation>
+        <Depth minusError="0.0" plusError="0.0">0.0</Depth>
+        <Azimuth minusError="0.0" plusError="0.0" unit="DEGREES">0.0</Azimuth>
+        <Dip minusError="0.0" plusError="0.0" unit="DEGREES">-90.0</Dip>
+        <Type>TRIGGERED</Type>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate minusError="0.0" plusError="0.0" unit="SAMPLES/S">200.0</SampleRate>
+        <ClockDrift minusError="0.0" plusError="0.0" unit="SECONDS/SAMPLE">1.0</ClockDrift>
+        <CalibrationUnits>
+          <Name>A</Name>
+          <Description>Amperes</Description>
+        </CalibrationUnits>
+        <Sensor>
+          <Type>Wettzell RILA seismometer</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>6319100000000.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>RAD/S</Name>
+              <Description>Velocity in Meters per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description>Digital Counts</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>RAD/S</Name>
+                <Description>Velocity in Meters per Second</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description>Volts</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency minusError="0.0" plusError="0.0" unit="HERTZ">1.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>6319100.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description>Volts</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Counts</Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate minusError="0.0" plusError="0.0" unit="HERTZ">200.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay minusError="0.0" plusError="0.0">0.0</Delay>
+              <Correction minusError="0.0" plusError="0.0">0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>1000000.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+    </Station>
+  </Network>
+</FDSNStationXML>

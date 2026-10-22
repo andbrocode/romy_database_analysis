@@ -1,0 +1,45 @@
+\begin{table}[htbp]
+\centering
+\caption{Summary statistics of backazimuth estimates for different wave types and cross-correlation methods. 
+         Residual is defined as estimated minus theoretical backazimuth (in degrees). 
+         The table shows the number of events (N), residual statistics (mean, standard deviation, median, min, max), 
+         and uncertainty statistics (mean and standard deviation) for each wave type and CC method combination.}
+\label{tab:backazimuth_summary}
+\sisetup{table-format=-2.2, table-number-alignment=center}
+\begin{tabular}{
+    l
+    c
+    S[table-format=2.0]
+    S[table-format=-2.2]
+    S[table-format=2.2]
+    S[table-format=-2.2]
+    S[table-format=-2.2]
+    S[table-format=2.2]
+    S[table-format=2.2]
+    S[table-format=1.2]
+}
+\toprule
+\textbf{Wave Type} & 
+\textbf{CC Method} & 
+\textbf{N} & 
+\multicolumn{5}{c}{\textbf{Residual (°)}} & 
+\multicolumn{2}{c}{\textbf{Uncertainty (°)}} \\
+\cmidrule(lr){4-8} \cmidrule(lr){9-10}
+ & & & 
+{\textbf{Mean}} & 
+{\textbf{Std}} & 
+{\textbf{Median}} & 
+{\textbf{Min}} & 
+{\textbf{Max}} & 
+{\textbf{Mean}} & 
+{\textbf{Std}} \\
+\midrule
+Love & Mid & 17 & -2.94 & 13.00 & -2.00 & -26.50 & 24.40 & 21.18 & 13.56 \\
+Love & Max & 18 & -40.97 & 106.37 & -3.85 & -340.60 & 26.20 & 14.83 & 16.76 \\
+Rayleigh & Mid & 18 & -7.69 & 7.93 & -8.75 & -23.50 & 3.00 & 13.06 & 4.24 \\
+Rayleigh & Max & 18 & -8.80 & 12.55 & -7.15 & -36.70 & 12.00 & 19.00 & 5.53 \\
+Tangent & Mid & 18 & -8.08 & 8.91 & -6.45 & -25.70 & 5.60 & 14.22 & 3.87 \\
+Tangent & Max & 18 & -8.08 & 8.91 & -6.45 & -25.70 & 5.60 & 14.22 & 3.87 \\
+\bottomrule
+\end{tabular}
+\end{table}

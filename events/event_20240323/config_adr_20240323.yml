@@ -1,0 +1,19 @@
+data_source: mseed_file
+path_to_mseed_file: ./events/event_20240323/adr_20240323.mseed
+rot_seed:
+- GR.FUR..BJZ
+- GR.FUR..BJN
+- GR.FUR..BJE
+seed: GR.FUR..
+station_lat: 48.1639
+station_lon: 11.2768
+stations:
+- GR.FUR
+- BW.GRMB
+- BW.GELB
+tbeg: '2024-03-23 20:33:59'
+tend: '2024-03-23 22:04:59'
+tra_seed:
+- GR.FUR..BHE
+- GR.FUR..BHN
+- GR.FUR..BHZ

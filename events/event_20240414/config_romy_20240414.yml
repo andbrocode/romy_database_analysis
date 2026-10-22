@@ -1,0 +1,28 @@
+baz_step: 1
+cc_threshold: 0.8
+data_source: mseed_file
+fmax: 0.1
+fmin: 0.01
+magnitude: 6.9
+origin_time: '2024-04-14 20:56:28'
+path_to_data_out: ./output/
+path_to_figures: ./events/event_20240414/figures/
+path_to_mseed_file: ./events/event_20240414/romy_20240414.mseed
+project: ROMY_Analysis
+rot_seed:
+- XX.ROMY..BJZ
+- XX.ROMY..BJN
+- XX.ROMY..BJE
+seed: XX.ROMY..
+station_lat: 48.162941
+station_lon: 11.275476
+tbeg: '2024-04-14 21:05:00'
+tend: '2024-04-14 22:40:00'
+tra_seed:
+- XX.ROMY..BHZ
+- XX.ROMY..BHN
+- XX.ROMY..BHE
+twin_overlap: 0.75
+twin_sec: 100
+verbose: true
+workdir: ./
